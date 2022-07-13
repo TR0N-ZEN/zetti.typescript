@@ -1,0 +1,29 @@
+{
+  "name": "zetti",
+  "version": "1.0.0",
+  "description": "game of cards",
+  "main": "start.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "live-local": "sudo node start.js local",
+    "live-server": "sudo node start.js server",
+    "dev-local": "sudo nodemon start.js local",
+    "dev-server": "sudo nodemon start.js server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TR0N-ZEN/Zetti.git"
+  },
+  "author": "Theo Reichert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TR0N-ZEN/Zetti/issues"
+  },
+  "homepage": "https://github.com/TR0N-ZEN/Zetti#readme"
+}
